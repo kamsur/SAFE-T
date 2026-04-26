@@ -1,4 +1,4 @@
-# MaRa25-SAFE-T
+# SAFE-T
 Semi-automatic formant recognition tool
 
 ## Operating System
