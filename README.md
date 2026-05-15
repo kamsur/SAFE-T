@@ -116,7 +116,7 @@ First run may take some time as WhisperX ASR model and Wav2Vec2 are downloaded.
 Refer USAGE.md for detailed usage instructions.
 
 ## Data
-Used data is available in `Test_data` directory.
+Used sample data is available in `Test_data` directory.
 
 ## Algorithm documentation
 1. **ASR_ALGORITHMS.md:** Describes the `Whisper AI` algorithm's implementation, used for sentence segmentation.

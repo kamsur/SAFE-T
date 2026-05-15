@@ -2,14 +2,14 @@
 
 ## Loading audio files
 1. Launch the application by running `player_pyqt6.py`.
-2. Use the `Open Audio` button under `File` at top left of application window to select and load any audio file for analysis. Only `.wav` files are supported. Use the sample audio files inside `Test_data` directory for testing.
+2. Use the `Open Audio` button under `File` at top left of application window to select and load any audio file for analysis. Only `.wav` files are supported. Use the sample audio file inside `Test_data` directory for testing.
 3. Upon successful loading, the waveform of the audio file will be displayed in the 'Audio Waveform' section. The spectrogram of audio will be displayed in the 'Spectrogram' section, with formant readings by Praat shown as red dots. The audio file location will be shown in the 'Audio Path' field in box below waveform plot
 4. You can play the audio using the Play/Pause, Play Window, and Stop buttons below the waveform plot.
 
 ## Analyzing audio files
 
 ### Segment sentences
-1. Click the `Load Stimulus` button below waveform plot to load the stimulus text file corresponding to the audio file. The stimulus text file should be a plain text file with one stimulus sentence per line. The text file at `Test_data/Stimulus.txt` can be used as an example. After choosing the stimulus file, the path to this file will be shown in the 'Stimulus Path' field.
+1. Click the `Load Stimulus` button below waveform plot to load the stimulus text file corresponding to the audio file. The stimulus text file should be a plain text file with one stimulus sentence per line. The text file at `Test_data/Stimulus_sentences.txt` can be used as an example. After choosing the stimulus file, the path to this file will be shown in the 'Stimulus Path' field.
 2. Click the `Run ASR` button below waveform plot and choose one of the methods for sentence segmentation:
    - `Whisper AI`: Uses WhisperX automatic speech recognition and post-processing for sentence segmentation
    - `Subsequence DTW`: Uses Subsequence Dynamic Time Warping for sentence segmentation
